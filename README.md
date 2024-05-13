@@ -10,6 +10,10 @@ This package provides modeling language for (1) mixed complementarity problems (
 
 ## Mixed Complementarity Problems (MCP)
 
+
+Note: As of [JuMP v1.15.0](https://github.com/jump-dev/JuMP.jl/releases/tag/v1.15.0), JuMP natively supports
+MCP constraints. [JuMP documentation for complementarity constraints](https://jump.dev/JuMP.jl/stable/manual/constraints/#Complementarity-constraints).
+
 **NOTE:** Differences between PATHSolver.jl and Complementarity.jl:
 - [PATHSolver.jl](https://github.com/chkwon/PATHSolver.jl) provides a wrapper for the C API of the [PATH](http://pages.cs.wisc.edu/~ferris/path.html) solver. 
 - [PATHSolver.jl](https://github.com/chkwon/PATHSolver.jl) also enables JuMP for solving MCP, but limited to linear problems.
@@ -19,7 +23,6 @@ This package provides modeling language for (1) mixed complementarity problems (
 
 
 ***[MCP Documentation](MCP.md)***
-
 
 
 - This package provides a modeling and computational interface for solving [Mixed Complementarity Problems](https://en.wikipedia.org/wiki/Mixed_complementarity_problem) (MCP): modeling by [JuMP.jl](https://github.com/JuliaOpt/JuMP.jl) and computing by [PATHSolver.jl](https://github.com/chkwon/PATHSolver.jl) and [NLsolve.jl](https://github.com/EconForge/NLsolve.jl). See [the documentation](MCP.md).

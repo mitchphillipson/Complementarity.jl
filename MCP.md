@@ -1,5 +1,9 @@
 # Mixed Complementarity Problems (MCP)
 
+Note: As of [JuMP v1.15.0](https://github.com/jump-dev/JuMP.jl/releases/tag/v1.15.0), JuMP natively supports
+MCP constraints. [JuMP documentation for complementarity constraints](https://jump.dev/JuMP.jl/stable/manual/constraints/#Complementarity-constraints).
+
+
 Note that MCP is more general than [Linear Complementarity Problems](https://en.wikipedia.org/wiki/Linear_complementarity_problem) (LCP) and [Nonlinear Complementarity Problems](https://en.wikipedia.org/wiki/Nonlinear_complementarity_problem) (NCP).
 
 The form of MCP is as follows:
